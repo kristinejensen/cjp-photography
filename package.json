@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kristinejensen/cjp-photography#readme",
   "dependencies": {
     "angular-route": "^1.6.4",
+    "angular-ui-carousel": "^0.1.8",
     "body-parser": "^1.17.1",
     "bootstrap": "^3.3.7",
     "express": "^4.15.2",
