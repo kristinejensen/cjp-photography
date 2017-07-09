@@ -12,10 +12,10 @@ app.config(['$routeProvider', function($routeProvider) {
     controller: 'PortfolioController',
     controllerAs: 'pc'
   })
-  .when('/about', {
-    templateUrl: 'views/about.html',
-    controller: 'AboutController',
-    controllerAs: 'ac'
+  .when('/contact', {
+    templateUrl: 'views/contact.html',
+    controller: 'ContactController',
+    controllerAs: 'cc'
   })
   .otherwise({
     redirectTo: 'home'
