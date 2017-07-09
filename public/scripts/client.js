@@ -1,4 +1,4 @@
-var app = angular.module('PhotoApp', ['ngRoute']);
+var app = angular.module('PhotoApp', ['ngRoute', 'ngMaterial']);
 
 app.config(['$routeProvider', function($routeProvider) {
   $routeProvider
