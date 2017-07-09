@@ -17,11 +17,6 @@ app.config(['$routeProvider', function($routeProvider) {
     controller: 'AboutController',
     controllerAs: 'ac'
   })
-  .when('/contact', {
-    templateUrl: 'views/contact.html',
-    controller: 'ContactController',
-    controllerAs: 'cc'
-  })
   .otherwise({
     redirectTo: 'home'
   })
