@@ -17,6 +17,21 @@ app.config(['$routeProvider', function($routeProvider) {
     controller: 'ContactController',
     controllerAs: 'cc'
   })
+  .when('/admin-calendar', {
+    templateUrl: 'views/admin-calendar.html',
+    controller: 'AdminCalendarController',
+    controllerAs: 'acc'
+  })
+  .when('/admin-tasks', {
+    templateUrl: 'views/admin-tasks.html',
+    controller: 'AdminTasksController',
+    controllerAs: 'at'
+  })
+  .when('/admin-pricing', {
+    templateUrl: 'views/admin-pricing.html',
+    controller: 'AdminPricingController',
+    controllerAs: 'ap'
+  })
   .otherwise({
     redirectTo: 'home'
   })
